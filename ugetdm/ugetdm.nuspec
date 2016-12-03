@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ugetdm</id>
+    <version>2.0.8</version>
+    <packageSourceUrl>https://github.com/metalseargolid/ugetdm-chocolatey</packageSourceUrl>
+    <owners>Alexander Alber</owners>
+    <title>uGet Download Manager (Install)</title>
+    <authors>https://sourceforge.net/p/urlget/uget/ci/master/tree/AUTHORS</authors>
+    <projectUrl>http://ugetdm.com/</projectUrl>
+    <iconUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/pixmaps/logo.png?format=raw</iconUrl>
+    <copyright>C. H. Huang &#169;2016</copyright>
+    <licenseUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/</projectSourceUrl>
+    <docsUrl>http://ugetdm.com/documentation</docsUrl>
+    <mailingListUrl>http://ugetdm.com/forum/</mailingListUrl>
+    <bugTrackerUrl>http://ugetdm.com/forum/viewforum.php?f=6</bugTrackerUrl>
+    <tags>ugetdm uget download manager admin</tags>
+    <summary>Lightweight download manager</summary>
+    <description>uGet is a lightweight and full-featured Download Manager for for Linux, BSD, Android, and Windows.</description>
+    <releaseNotes>http://ugetdm.com/blog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
