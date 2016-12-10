@@ -9,7 +9,7 @@
     <authors>https://sourceforge.net/p/urlget/uget/ci/master/tree/AUTHORS</authors>
     <projectUrl>http://ugetdm.com/</projectUrl>
     <iconUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/pixmaps/logo.png?format=raw</iconUrl>
-    <copyright>C. H. Huang &#169;2016</copyright>
+    <copyright>&#169;2016 C. H. Huang</copyright>
     <licenseUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/urlget/uget/ci/master/tree/</projectSourceUrl>
@@ -17,11 +17,17 @@
     <mailingListUrl>http://ugetdm.com/forum/</mailingListUrl>
     <bugTrackerUrl>http://ugetdm.com/forum/viewforum.php?f=6</bugTrackerUrl>
     <tags>ugetdm uget download manager admin</tags>
-    <summary>Lightweight download manager</summary>
-    <description>uGet is a lightweight and full-featured Download Manager for for Linux, BSD, Android, and Windows.</description>
+    <summary>uGet is a lightweight and full-featured Download Manager for for Linux, BSD, Android, and Windows.</summary>
+    <description>
+      uGet, the Best Download Manager for Linux.
+
+      uGet is an Open Source download manager application for GNU/Linux developed with GTK+, which also comes packaged as a portable Windows app.
+
+      uGet uses very few resources while at the same time packs an unparalleled powerful feature set. These features include a Queue, Pause/Resume, Multi-Connection (with adaptive segment management), Mirrors (multi-source), Multi-Protocol, Advanced Categorization, Clipboard Monitor, Batch Downloads, Individualized Category Default Settings, Speed Limiting, Total Active Downloads Control, and so much more! 
+    </description>
     <releaseNotes>http://ugetdm.com/blog</releaseNotes>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\**" target="tools" exclude="**\*~;**\#*" />
   </files>
 </package>
