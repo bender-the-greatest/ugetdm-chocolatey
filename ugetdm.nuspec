@@ -16,14 +16,16 @@
     <docsUrl>http://ugetdm.com/documentation</docsUrl>
     <mailingListUrl>http://ugetdm.com/forum/</mailingListUrl>
     <bugTrackerUrl>http://ugetdm.com/forum/viewforum.php?f=6</bugTrackerUrl>
-    <tags>ugetdm uget download manager admin</tags>
+    <tags>ugetdm uget download manager</tags>
     <summary>uGet is a lightweight and full-featured Download Manager for for Linux, BSD, Android, and Windows.</summary>
     <description>
       uGet, the Best Download Manager for Linux.
 
       uGet is an Open Source download manager application for GNU/Linux developed with GTK+, which also comes packaged as a portable Windows app.
 
-      uGet uses very few resources while at the same time packs an unparalleled powerful feature set. These features include a Queue, Pause/Resume, Multi-Connection (with adaptive segment management), Mirrors (multi-source), Multi-Protocol, Advanced Categorization, Clipboard Monitor, Batch Downloads, Individualized Category Default Settings, Speed Limiting, Total Active Downloads Control, and so much more! 
+      uGet uses very few resources while at the same time packs an unparalleled powerful feature set. These features include a Queue, Pause/Resume, Multi-Connection (with adaptive segment management), Mirrors (multi-source), Multi-Protocol, Advanced Categorization, Clipboard Monitor, Batch Downloads, Individualized Category Default Settings, Speed Limiting, Total Active Downloads Control, and so much more!
+
+      This package also installs the required files for additional locale support.
     </description>
     <releaseNotes>http://ugetdm.com/blog</releaseNotes>
   </metadata>
