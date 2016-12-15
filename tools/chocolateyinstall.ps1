@@ -25,7 +25,7 @@ Get-ChocolateyUnzip `
 
 # Copy to installation dir
 Write-Debug "Copying locale files to installation directory..."
-iex "cp -Recurse -Force $tempOut\$localeEmbeddedFolder\* $unzipLocation"
+cp -Recurse -Force "$tempOut\$localeEmbeddedFolder\*" "$unzipLocation"
 
 # ugetdm binaries
 Install-ChocolateyZipPackage `
